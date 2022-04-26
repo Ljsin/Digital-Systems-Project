@@ -184,22 +184,4 @@ struct MMLPView: View {
                 loadingState = .failed
             }
         }
-    
-   /* func loadData() {
-        guard let url = URL(string: "https://itunes.apple.com/search?term=eminem&media=music&limit=10") else {
-            print("Invalid API endpoint")
-            return
-        }
-        let request = URLRequest(url: url)
-        URLSession.shared.dataTask(with: request) { data, decodedResponse, error in
-            if let data = data {
-                if let decodedResponse = try? JSONDecoder().decode(Response.self, from: data) {
-                    DispatchQueue.main.async {
-                        results =  decodedResponse.results
-                    }
-                    return
-                }
-            }
-        }.resume()
-    }*/
 }
