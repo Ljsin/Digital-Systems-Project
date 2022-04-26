@@ -2,7 +2,7 @@
 //  Artist.swift
 //  Analyse
 //
-//  Created by Lloyd Wood  on 25/02/2022.
+//  Created by Lloyd Wood on 25/02/2022.
 //
 
 import Foundation
